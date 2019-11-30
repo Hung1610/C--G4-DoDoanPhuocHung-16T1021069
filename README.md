@@ -1,2 +1,1 @@
-# G2-HoangNgocThang-16T1021165
-Video Demo: AppG2/Video Demo
+# G4-DoDoanPhuocHung-16T1021069
