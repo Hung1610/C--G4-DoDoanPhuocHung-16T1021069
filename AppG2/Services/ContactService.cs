@@ -50,13 +50,13 @@ namespace AppG2.Services
 
                 foreach (var lines in listLines)
                 {                  
-                    var rs = lines.Split(new char[] { ',' });
+                    var rs = lines.Split(new char[] { '#' });
                     Contact contact = new Contact
                     {
                         Id = Guid.NewGuid().ToString(),
-                        Name = rs[0],
-                        Phone = rs[1],
-                        Email = rs[2],
+                        Name = rs[1],
+                        Phone = rs[2],
+                        Email = rs[3],
                         IdUser = idUser
                     };
                     listContact.Add(contact);
